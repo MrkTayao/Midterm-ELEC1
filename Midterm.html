@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" "initial-scale=1.0">
+    <title>Tayao</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-image: url(Picsart_25-04-06_17-09-05-304.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            color: blue;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 30px;
+        }
+        nav {
+            background-color: #061f92;
+            padding: 10px 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+            transition-duration: .3s;
+            padding: 10px 25px;
+        }
+        li a:hover {
+            font-size: 25px;
+            background-color: blue;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .column{
+            flex: 1;
+            padding: 20px;
+            backdrop-filter: blur(2px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        .column1{
+            backdrop-filter: blur(2px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            
+        }
+        .image-placeholder {
+            margin-bottom: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em  0;
+        }
+        .photo {
+            width: 190px;
+            transition-duration: .5s;
+            margin: 10px;
+        }
+        .photo:hover {
+            transform: scale(1.5);
+            width: 200px;
+        }
+        .image {
+            flex-direction: column;
+            display: flex;
+            gap: 20px;
+        }
+        .image img {
+            width: 100px;
+        }
+        p{
+            color: #67ff98; 
+            font-style: italic;
+        }
+        h2{
+            color: white;
+        }
+        b{
+            color: rgb(40, 180, 90);
+        }
+        label{
+            color: rgb(245, 238, 238);
+        }
+        .logo{
+            width: 150px;
+        }
+        g{
+            font-size: 25px;
+            color: #67ff98; 
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Profile</h1>
+        <img src="crt logo.png" alt="" class="logo">
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="gtr.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="column1">
+            <h2>About Me</h2>
+            <p>Photo of me:</p>
+            <div class="image-placeholder">
+                <img src="Picsart_25-01-02_21-54-04-025.jpg" alt="Photo of me" class="photo">
+            </div>
+            <p>I am Mark Angelo Tayao<br> a 1st year in Bachelor of Science in Information Technology</p>
+            <h2>More Photos</h2>
+            <p>My Pictures</p>
+            <div class="image">
+                <img src="1.jpg" alt="Image 1" class="photo">
+                <img src="2.jpg" alt="Image 2" class="photo">
+                <img src="3.jpg" alt="Image 3" class="photo">
+            </div><br>
+            <label for="">Personal Information</label><br>
+            <p><b>Address: </b>Purok 4, MS Garcia , Cabanatuan City</p><br>
+            <p><b>Age: </b>19 years old</p><br>
+            <p><b>Sex: </b>Male</p><br>
+            <p><b>Height: </b>5'6 ft</p><br>
+            <p><b>Weigth: </b>70 kg</p><br>
+            <p><b>Nationality: </b>Filipino</p>
+        </div>
+
+        <div class="column">
+            <h2>My School</h2>
+            <g>College for Research and Technology</g>
+            <div class="crt">
+                <img src="crt.jpeg" alt="College Image" style="width: 400px;" class="photo">>
+            </div>
+            <g>The College for Research and Technology of Cabanatuan (CRT) started as a computer school and has been known to be the first computer school in Nueva Ecija.</g>
+
+            <h2>My Course</h2>
+            <g>Bachelor of Science in Information Technology</g>
+            <div class="image-placeholder">
+                <img src="IT.jpeg" alt="" style="width: 300px; " class="photo">
+            </div>
+            <g>A Bachelor of Science in Information Technology (BSIT) is a four-year degree program that prepares students for a career in the technology industry.  The curriculum typically includes subjects in computer science, programming, networking, cybersecurity, and database management.</g>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 All Rights CRT creator by Mark Angelo Tayao
+    </footer>
+</body>
+</html>
